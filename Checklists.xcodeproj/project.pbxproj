@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4882343C19E0E2FC001C13DA /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882343B19E0E2FC001C13DA /* AddItemViewController.swift */; };
 		48F3706719DF802800830C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3706619DF802800830C26 /* AppDelegate.swift */; };
 		48F3706919DF802800830C26 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3706819DF802800830C26 /* ChecklistViewController.swift */; };
 		48F3706C19DF802800830C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48F3706A19DF802800830C26 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4882343B19E0E2FC001C13DA /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 		48F3706119DF802800830C26 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F3706519DF802800830C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48F3706619DF802800830C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				48F3706F19DF802800830C26 /* LaunchScreen.xib */,
 				48F3706419DF802800830C26 /* Supporting Files */,
 				48F3708619DFE3D100830C26 /* ChecklistItem.swift */,
+				4882343B19E0E2FC001C13DA /* AddItemViewController.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F3706919DF802800830C26 /* ChecklistViewController.swift in Sources */,
+				4882343C19E0E2FC001C13DA /* AddItemViewController.swift in Sources */,
 				48F3708719DFE3D100830C26 /* ChecklistItem.swift in Sources */,
 				48F3706719DF802800830C26 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				48F3708219DF802800830C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48F3708319DF802800830C26 /* Build configuration list for PBXNativeTarget "ChecklistsTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				48F3708519DF802800830C26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
